@@ -1,0 +1,31 @@
+.nav {
+    background-color: #8a2be2;
+    margin: 0;
+    display: flex;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    height: 45px;
+    color: white;
+}
+
+.item {
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #6821aa;
+    margin-right: 1em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.item:hover {
+    background-color: #6821aa;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
